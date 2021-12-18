@@ -1,0 +1,78 @@
+/* FIN HEADER */
+@media (max-width: 1350px) {
+    
+    /* INICIO HEADER */
+    .checkbtn {
+        display: block;
+    }
+
+    .margin-t-2 {
+        margin-top: 0;
+        position: absolute;
+    }
+
+    nav{
+        position: fixed;
+    }
+    
+    nav ul {
+        width: 35%;
+        background: rgba(20, 20, 20, 0.938);
+        top: 5em;
+        left: -100%;
+        /*text-align: center;*/
+        transition: all .5s;
+        height: 100vh;
+    }
+    nav h1{
+        position:fixed;
+        float:center;
+        text-align: center;
+        margin-right: 3em;
+    }
+    nav ul hr {
+        border-color: rgba(145, 145, 145, 0.308);
+        display: block;
+    }
+    nav ul li {
+        display: block;
+        line-height: 3.6em;
+        padding: 0.01em;
+        margin: 0.125em;
+    }
+    nav ul li a:hover {
+        background-color: rgba(255, 255, 255, 0.068);
+    }
+
+    nav ul li a {
+        width: 100%;
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+        background-color: rgba(255, 255, 255, 0.068);
+        height: 3.6em;
+        line-height: 4em;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    #logo {
+        margin-left: 0;
+    }
+
+    #desplegable {
+        display: block;
+    }
+
+    #item-desplegable {
+        height: auto;
+    }
+
+    header img{
+        margin-top: 0.2em;
+    }
+
+    /* FIN HEADER */
+}
