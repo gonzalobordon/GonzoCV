@@ -16,9 +16,9 @@
     }
     
     nav ul {
-        width: 35%;
+        width: 35vh;
         background: rgba(20, 20, 20, 0.938);
-        top: 5em;
+        top: 10vh;
         left: -100%;
         /*text-align: center;*/
         transition: all .5s;
@@ -68,10 +68,6 @@
 
     #item-desplegable {
         height: auto;
-    }
-
-    header img{
-        margin-top: 0.2em;
     }
 
     /* FIN HEADER */
